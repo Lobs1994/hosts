@@ -1,1 +1,43 @@
-111
+# Localhost
+127.0.0.1	localhost
+::1             localhost
+
+# Oculus
+157.240.3.49 www.oculus.com
+157.240.3.49 www2.oculus.com
+157.240.3.49 graph.oculus.com
+157.240.3.49 scontent.oculuscdn.com
+157.240.3.49 securecdn.oculus.com
+157.240.3.49 developer.oculus.com
+157.240.3.49 oculus.com
+157.240.3.49 oculuscdn.com
+157.240.3.49 oculusrift.com
+157.240.3.49 oculusvr.com
+157.240.3.49 powersunitedvr.com
+157.240.3.49 www.powersunitedvr.com
+157.240.3.49 auth.oculus.com
+157.240.224.12 meta.com
+157.240.224.12 news.meta.com
+157.240.224.12 cinyour.www.meta.com
+157.240.224.12 www.auth.meta.com
+157.240.224.12 quest.meta.com
+157.240.224.12 alpha.www.meta.com
+157.240.224.12 beta.www.meta.com
+157.240.224.12 www.meta.com
+157.240.224.12 latest.www.meta.com
+157.240.224.12 auth.meta.com
+157.240.224.12 meta.graph.meta.com
+157.240.224.12 work.meta.com
+157.240.224.12 dave.meta.com
+157.240.224.12 www.quest.meta.com
+157.240.224.12 horizon.meta.com
+157.240.224.12 maps.meta.com
+157.240.224.12 store.meta.com
+157.240.224.12 about.meta.com
+157.240.224.12 accountscenter.meta.com
+157.240.224.12 prod.www.meta.com
+157.240.224.12 blue.meta.com
+157.240.224.12 accounts.meta.com
+
+0.0.0.0 download.vrdesktop.net
+0.0.0.0 europe.vrdesktop.net
