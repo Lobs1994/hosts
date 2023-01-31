@@ -7,3 +7,5 @@
 120.25.115.20 time3.facebook.com
 120.25.115.20 time4.facebook.com
 120.25.115.20 time5.facebook.com
+172.217.163.42  www.oculus.com
+157.240.3.49 www.oculus.com
