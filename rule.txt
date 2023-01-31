@@ -7,4 +7,3 @@
 120.25.115.20 time3.facebook.com
 120.25.115.20 time4.facebook.com
 120.25.115.20 time5.facebook.com
-157.240.3.49 www.oculus.com
