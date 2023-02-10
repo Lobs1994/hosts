@@ -1,7 +1,7 @@
-172.217.194.90 translate.googleapis.com
 120.25.115.20 time.facebook.com 
 120.25.115.20 time1.facebook.com
 120.25.115.20 time2.facebook.com
 120.25.115.20 time3.facebook.com
 120.25.115.20 time4.facebook.com
 120.25.115.20 time5.facebook.com
+172.217.194.90 translate.googleapis.com
