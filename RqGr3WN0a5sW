@@ -1,0 +1,78 @@
+allow-lan: true
+mode: rule
+log-level: info
+unified-delay: true
+dns:
+  enable: true
+  listen: :53
+  ipv6: false
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter: [ntp.aliyun.com,time.apple.com, time.windows.com, pool.ntp.org]
+  default-nameserver:
+    - 119.28.28.28
+  nameserver:
+    - tls://1.12.12.12
+  fallback:
+    - tls://1.1.1.1
+    - tls://1.0.0.1
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+    ipcidr:
+    - 240.0.0.0/4
+    - 127.0.0.0/8
+    - 0.0.0.0/8
+proxies:
+    - { name: 01-新加坡, type: ss, server: free-relay.t01.themars.top, port: 44400, cipher: chacha20-ietf-poly1305, password: 9ba6570b-b9b9-43fc-8a21-b9c904779b18, udp: true }
+    - { name: 02-新加坡, type: ss, server: free-relay.t01.themars.top, port: 44419, cipher: chacha20-ietf-poly1305, password: 9ba6570b-b9b9-43fc-8a21-b9c904779b18, udp: true }
+    - { name: 01-美国, type: ss, server: free-relay.t01.themars.top, port: 44402, cipher: chacha20-ietf-poly1305, password: 9ba6570b-b9b9-43fc-8a21-b9c904779b18, udp: true }
+    - { name: 03-新加坡, type: ss, server: free-relay.t01.themars.top, port: 44400, cipher: chacha20-ietf-poly1305, password: 4323e499-33f0-41c6-9445-0b5e30d18a2b, udp: true }
+    - { name: 04-新加坡, type: ss, server: free-relay.t01.themars.top, port: 44419, cipher: chacha20-ietf-poly1305, password: 4323e499-33f0-41c6-9445-0b5e30d18a2b, udp: true }
+    - { name: 02-美国, type: ss, server: free-relay.t01.themars.top, port: 44402, cipher: chacha20-ietf-poly1305, password: 4323e499-33f0-41c6-9445-0b5e30d18a2b, udp: true }
+    - { name: 05-新加坡, type: ss, server: free-relay.t01.themars.top, port: 44400, cipher: chacha20-ietf-poly1305, password: ba81b934-cce0-49b2-81f1-ad1e5a2fe12e, udp: true }
+    - { name: 06-新加坡, type: ss, server: free-relay.t01.themars.top, port: 44419, cipher: chacha20-ietf-poly1305, password: ba81b934-cce0-49b2-81f1-ad1e5a2fe12e, udp: true }
+    - { name: 03-美国, type: ss, server: free-relay.t01.themars.top, port: 44402, cipher: chacha20-ietf-poly1305, password: ba81b934-cce0-49b2-81f1-ad1e5a2fe12e, udp: true }
+    - { name: 07-新加坡, type: ss, server: free-relay.t01.themars.top, port: 44400, cipher: chacha20-ietf-poly1305, password: 0e5b34de-9bc3-46b1-b999-368b3ab81120, udp: true }
+    - { name: 08-新加坡, type: ss, server: free-relay.t01.themars.top, port: 44419, cipher: chacha20-ietf-poly1305, password: 0e5b34de-9bc3-46b1-b999-368b3ab81120, udp: true }
+    - { name: 04-美国, type: ss, server: free-relay.t01.themars.top, port: 44402, cipher: chacha20-ietf-poly1305, password: 0e5b34de-9bc3-46b1-b999-368b3ab81120, udp: true }
+proxy-groups:  
+  - name: PROXY
+    type: select
+    proxies:
+      - 🇸🇬 新加坡
+      - 🇺🇸 美国
+      - DIRECT
+
+      
+  - name: 🇺🇸 美国
+    type: load-balance
+    url: http://www.gstatic.com/generate_204
+    interval: 3600
+    strategy: round-robin
+    proxies:
+      - 01-美国
+      - 02-美国
+      - 03-美国
+      - 04-美国
+      
+  - name: 🇸🇬 新加坡
+    type: load-balance
+    url: http://www.gstatic.com/generate_204
+    interval: 3600
+    strategy: round-robin
+    proxies:
+      - 01-新加坡
+      - 02-新加坡
+      - 03-新加坡
+      - 04-新加坡
+      - 05-新加坡
+      - 06-新加坡
+      - 07-新加坡
+      - 08-新加坡
+      
+rules:
+  - GEOIP,private,DIRECT,no-resolve
+  - GEOIP,LAN,DIRECT
+  - GEOIP,CN,DIRECT,no-resolve
+  - MATCH,PROXY
