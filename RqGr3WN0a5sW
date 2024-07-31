@@ -1,75 +1,344 @@
-allow-lan: true
-mode: rule
-log-level: info
-unified-delay: true
 dns:
   enable: true
-  listen: :53
   ipv6: false
-  enhanced-mode: fake-ip
-  fake-ip-range: 198.18.0.1/16
-  fake-ip-filter: [ntp.aliyun.com,time.apple.com, time.windows.com, pool.ntp.org]
-  default-nameserver:
-    - 119.28.28.28
   nameserver:
-    - tls://1.12.12.12
+    - 1.1.1.1
+    - 8.8.8.8
   fallback:
-    - tls://1.1.1.1
-    - tls://1.0.0.1
+    - tls://1.1.1.1:853
+    - tls://8.8.8.8:853
   fallback-filter:
     geoip: true
     geoip-code: CN
     ipcidr:
-    - 240.0.0.0/4
-    - 127.0.0.0/8
-    - 0.0.0.0/8
+      - 240.0.0.0/4
+      - 127.0.0.0/8
+      - 0.0.0.0/8
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+    - '*.lan'
+    - 'localhost.ptlogin2.qq.com'
+    - 'dns.msftncsi.com'
+    - 'www.msftncsi.com'
+    - 'www.msftconnecttest.com'
 proxies:
-    - { name: 01-新加坡, type: ss, server: free-relay.t01.themars.top, port: 44400, cipher: chacha20-ietf-poly1305, password: 9ba6570b-b9b9-43fc-8a21-b9c904779b18, udp: true }
-    - { name: 02-新加坡, type: ss, server: free-relay.t01.themars.top, port: 44419, cipher: chacha20-ietf-poly1305, password: 9ba6570b-b9b9-43fc-8a21-b9c904779b18, udp: true }
-    - { name: 01-美国, type: ss, server: free-relay.t01.themars.top, port: 44402, cipher: chacha20-ietf-poly1305, password: 9ba6570b-b9b9-43fc-8a21-b9c904779b18, udp: true }
-    - { name: 03-新加坡, type: ss, server: free-relay.t01.themars.top, port: 44400, cipher: chacha20-ietf-poly1305, password: 4323e499-33f0-41c6-9445-0b5e30d18a2b, udp: true }
-    - { name: 04-新加坡, type: ss, server: free-relay.t01.themars.top, port: 44419, cipher: chacha20-ietf-poly1305, password: 4323e499-33f0-41c6-9445-0b5e30d18a2b, udp: true }
-    - { name: 02-美国, type: ss, server: free-relay.t01.themars.top, port: 44402, cipher: chacha20-ietf-poly1305, password: 4323e499-33f0-41c6-9445-0b5e30d18a2b, udp: true }
-    - { name: 05-新加坡, type: ss, server: free-relay.t01.themars.top, port: 44400, cipher: chacha20-ietf-poly1305, password: ba81b934-cce0-49b2-81f1-ad1e5a2fe12e, udp: true }
-    - { name: 06-新加坡, type: ss, server: free-relay.t01.themars.top, port: 44419, cipher: chacha20-ietf-poly1305, password: ba81b934-cce0-49b2-81f1-ad1e5a2fe12e, udp: true }
-    - { name: 03-美国, type: ss, server: free-relay.t01.themars.top, port: 44402, cipher: chacha20-ietf-poly1305, password: ba81b934-cce0-49b2-81f1-ad1e5a2fe12e, udp: true }
-    - { name: 07-新加坡, type: ss, server: free-relay.t01.themars.top, port: 44400, cipher: chacha20-ietf-poly1305, password: 0e5b34de-9bc3-46b1-b999-368b3ab81120, udp: true }
-    - { name: 08-新加坡, type: ss, server: free-relay.t01.themars.top, port: 44419, cipher: chacha20-ietf-poly1305, password: 0e5b34de-9bc3-46b1-b999-368b3ab81120, udp: true }
-    - { name: 04-美国, type: ss, server: free-relay.t01.themars.top, port: 44402, cipher: chacha20-ietf-poly1305, password: 0e5b34de-9bc3-46b1-b999-368b3ab81120, udp: true }
+    - name: 美国1
+      type: vless
+      server: 192.9.246.112
+      port: 8443
+      uuid: d6b3de64-f0f8-4113-b49f-2660f3c031fb
+      network: ws
+      udp: true
+      alterId: 0
+      tls: true
+      client-fingerprint: random
+      alpn:
+        - ""
+      servername: 30388d70-6f5c-4d7c-8daa-9d3df7c5c526.9150e878-8296-4798-a172-c3fe66b8dee5.ddnsgeek.com
+      skip-cert-verify: true
+      ws-opts:
+        path: /fylink.pages.dev/?ed=2048
+        headers:
+            Host: 30388d70-6f5c-4d7c-8daa-9d3df7c5c526.9150e878-8296-4798-a172-c3fe66b8dee5.ddnsgeek.com
+        max-early-data: 0
+        early-data-header-name: ""
+    - name: 美国2
+      type: vless
+      server: 192.9.246.112
+      port: 8443
+      uuid: d6b3de64-f0f8-4113-b49f-2660f3c031fb
+      network: ws
+      udp: true
+      alterId: 0
+      tls: true
+      client-fingerprint: random
+      alpn:
+        - ""
+      servername: 159d770e-fd74-4069-a73b-fe6ececa7951.f82aee4c-752c-4b0c-9793-380d4d76435c.ddnsgeek.com
+      skip-cert-verify: true
+      ws-opts:
+        path: /fylink.pages.dev/proxyIP=proxyip.aliyun.fxxk.dedyn.io
+        headers:
+            Host: 159d770e-fd74-4069-a73b-fe6ececa7951.f82aee4c-752c-4b0c-9793-380d4d76435c.ddnsgeek.com
+        max-early-data: 0
+        early-data-header-name: ""
+    - name: 香港1
+      type: vless
+      server: 47.243.90.180
+      port: 2083
+      uuid: d6b3de64-f0f8-4113-b49f-2660f3c031fb
+      network: ws
+      udp: true
+      alterId: 0
+      tls: true
+      client-fingerprint: random
+      alpn:
+        - ""
+      servername: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
+      skip-cert-verify: true
+      ws-opts:
+        path: /fylink.pages.dev/?ed=2048
+        headers:
+            Host: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
+        max-early-data: 0
+        early-data-header-name: ""
+    - name: 香港2
+      type: vless
+      server: 8.210.192.93
+      port: 2083
+      uuid: d6b3de64-f0f8-4113-b49f-2660f3c031fb
+      network: ws
+      udp: true
+      alterId: 0
+      tls: true
+      client-fingerprint: random
+      alpn:
+        - ""
+      servername: ceb98438-36f6-4f6c-9596-8d0409bbe285.b1e18cfc-f959-4f08-94da-4878c3cd4a5f.mywire.org
+      skip-cert-verify: true
+      ws-opts:
+        path: /fylink.pages.dev/?ed=2048
+        headers:
+            Host: ceb98438-36f6-4f6c-9596-8d0409bbe285.b1e18cfc-f959-4f08-94da-4878c3cd4a5f.mywire.org
+        max-early-data: 0
+        early-data-header-name: ""
+    - name: 香港3
+      type: vless
+      server: 8.210.39.96
+      port: 2083
+      uuid: d6b3de64-f0f8-4113-b49f-2660f3c031fb
+      network: ws
+      udp: true
+      alterId: 0
+      tls: true
+      client-fingerprint: random
+      alpn:
+        - ""
+      servername: 8582b6f2-7192-4da8-a4cb-c480b71e6c58.e8e54e0f-6317-448a-9999-95f6e16f7117.ooguy.com
+      skip-cert-verify: true
+      ws-opts:
+        path: /fylink.pages.dev/?ed=2048
+        headers:
+            Host: 8582b6f2-7192-4da8-a4cb-c480b71e6c58.e8e54e0f-6317-448a-9999-95f6e16f7117.ooguy.com
+        max-early-data: 0
+        early-data-header-name: ""
+    - name: 美国3
+      type: vmess
+      server: 120.232.153.71
+      port: 34965
+      uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+      network: tcp
+      udp: true
+      alterId: 64
+      cipher: auto
+      skip-cert-verify: true
+    - name: 美国4
+      type: vmess
+      server: 38.14.107.233
+      port: 38003
+      uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+      network: ws
+      udp: true
+      alterId: 64
+      cipher: auto
+      tls: true
+      alpn:
+        - ""
+      skip-cert-verify: true
+      ws-opts:
+        path: /path/340434130032
+        headers:
+            Host: ""
+        max-early-data: 0
+        early-data-header-name: ""
+    - name: 美国5
+      type: vmess
+      server: 120.237.79.157
+      port: 32998
+      uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+      network: tcp
+      udp: true
+      alterId: 64
+      cipher: auto
+      skip-cert-verify: true
+    - name: 美国6
+      type: vless
+      server: 192.9.246.112
+      port: 8443
+      uuid: d6b3de64-f0f8-4113-b49f-2660f3c031fb
+      network: ws
+      udp: true
+      alterId: 0
+      tls: true
+      client-fingerprint: random
+      alpn:
+        - ""
+      servername: 30388d70-6f5c-4d7c-8daa-9d3df7c5c526.9150e878-8296-4798-a172-c3fe66b8dee5.ddnsgeek.com
+      skip-cert-verify: true
+      ws-opts:
+        path: /fylink.pages.dev/?ed=2048
+        headers:
+            Host: 30388d70-6f5c-4d7c-8daa-9d3df7c5c526.9150e878-8296-4798-a172-c3fe66b8dee5.ddnsgeek.com
+        max-early-data: 0
+        early-data-header-name: ""
+    - name: 美国7
+      type: vless
+      server: 192.9.246.112
+      port: 8443
+      uuid: d6b3de64-f0f8-4113-b49f-2660f3c031fb
+      network: ws
+      udp: true
+      alterId: 0
+      tls: true
+      client-fingerprint: random
+      alpn:
+        - ""
+      servername: 159d770e-fd74-4069-a73b-fe6ececa7951.f82aee4c-752c-4b0c-9793-380d4d76435c.ddnsgeek.com
+      skip-cert-verify: true
+      ws-opts:
+        path: /fylink.pages.dev/proxyIP=proxyip.aliyun.fxxk.dedyn.io
+        headers:
+            Host: 159d770e-fd74-4069-a73b-fe6ececa7951.f82aee4c-752c-4b0c-9793-380d4d76435c.ddnsgeek.com
+        max-early-data: 0
+        early-data-header-name: ""
+    - name: 香港4
+      type: vless
+      server: 47.243.90.180
+      port: 2083
+      uuid: d6b3de64-f0f8-4113-b49f-2660f3c031fb
+      network: ws
+      udp: true
+      alterId: 0
+      tls: true
+      client-fingerprint: random
+      alpn:
+        - ""
+      servername: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
+      skip-cert-verify: true
+      ws-opts:
+        path: /fylink.pages.dev/?ed=2048
+        headers:
+            Host: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
+        max-early-data: 0
+        early-data-header-name: ""
+    - name: 香港5
+      type: vless
+      server: 8.210.192.93
+      port: 2083
+      uuid: d6b3de64-f0f8-4113-b49f-2660f3c031fb
+      network: ws
+      udp: true
+      alterId: 0
+      tls: true
+      client-fingerprint: random
+      alpn:
+        - ""
+      servername: ceb98438-36f6-4f6c-9596-8d0409bbe285.b1e18cfc-f959-4f08-94da-4878c3cd4a5f.mywire.org
+      skip-cert-verify: true
+      ws-opts:
+        path: /fylink.pages.dev/?ed=2048
+        headers:
+            Host: ceb98438-36f6-4f6c-9596-8d0409bbe285.b1e18cfc-f959-4f08-94da-4878c3cd4a5f.mywire.org
+        max-early-data: 0
+        early-data-header-name: ""
+    - name: 香港6
+      type: vless
+      server: 8.210.39.96
+      port: 2083
+      uuid: d6b3de64-f0f8-4113-b49f-2660f3c031fb
+      network: ws
+      udp: true
+      alterId: 0
+      tls: true
+      client-fingerprint: random
+      alpn:
+        - ""
+      servername: 8582b6f2-7192-4da8-a4cb-c480b71e6c58.e8e54e0f-6317-448a-9999-95f6e16f7117.ooguy.com
+      skip-cert-verify: true
+      ws-opts:
+        path: /fylink.pages.dev/?ed=2048
+        headers:
+            Host: 8582b6f2-7192-4da8-a4cb-c480b71e6c58.e8e54e0f-6317-448a-9999-95f6e16f7117.ooguy.com
+        max-early-data: 0
+        early-data-header-name: ""
+    - name: 美国8
+      type: vmess
+      server: 120.232.153.71
+      port: 34965
+      uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+      network: tcp
+      udp: true
+      alterId: 64
+      cipher: auto
+      skip-cert-verify: true
+    - name: 美国9
+      type: vmess
+      server: 38.14.107.233
+      port: 38003
+      uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+      network: ws
+      udp: true
+      alterId: 64
+      cipher: auto
+      tls: true
+      alpn:
+        - ""
+      skip-cert-verify: true
+      ws-opts:
+        path: /path/340434130032
+        headers:
+            Host: ""
+        max-early-data: 0
+        early-data-header-name: ""
+    - name: 美国10
+      type: vmess
+      server: 120.237.79.157
+      port: 32998
+      uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+      network: tcp
+      udp: true
+      alterId: 64
+      cipher: auto
+      skip-cert-verify: true
 proxy-groups:  
   - name: PROXY
     type: select
     proxies:
-      - 🇸🇬 新加坡
-      - 🇺🇸 美国
+      - 美国
+      - 香港
       - DIRECT
 
       
-  - name: 🇺🇸 美国
+  - name: 美国
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 3600
     strategy: round-robin
     proxies:
-      - 01-美国
-      - 02-美国
-      - 03-美国
-      - 04-美国
+      - 美国1
+      - 美国2
+      - 美国3
+      - 美国4
+      - 美国5
+      - 美国6
+      - 美国7
+      - 美国8
+      - 美国9
+      - 美国10      
       
-  - name: 🇸🇬 新加坡
+  - name: 香港
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 3600
     strategy: round-robin
     proxies:
-      - 01-新加坡
-      - 02-新加坡
-      - 03-新加坡
-      - 04-新加坡
-      - 05-新加坡
-      - 06-新加坡
-      - 07-新加坡
-      - 08-新加坡
+      - 香港1
+      - 香港2
+      - 香港3
+      - 香港4
+      - 香港5
+      - 香港6     
       
 rules:
   - GEOIP,private,DIRECT,no-resolve
