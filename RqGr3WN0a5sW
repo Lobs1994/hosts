@@ -309,13 +309,34 @@ proxies:
     - {name: 美国12, server: tg.wxgqlfx.xyz, port: 8443, type: vless, uuid: fd7e3ffa-dd3c-4ca1-b076-d7a12ceaaf89, tls: true, tfo: false, skip-cert-verify: true, servername: us2.wxgqlfx.top, network: ws, ws-opts: {path: /TG@wxgqlfx, headers: {Host: us2.wxgqlfx.top}}}
     - {name: 美国13, server: tg.wxgqlfx.xyz, port: 8443, type: vless, uuid: 309c4a15-6568-4e4e-eac6-480e1691e055, tls: true, tfo: false, skip-cert-verify: true, servername: us3.wxgqlfx.xyz, network: ws, ws-opts: {path: /TG@wxgqlfx, headers: {Host: us3.wxgqlfx.xyz}}}
     - {name: 美国14, server: tg.wxgqlfx.xyz, port: 8443, type: vless, uuid: 7bb6aacc-12a9-4b82-d0a8-a4f3b3525ecf, tls: true, tfo: false, skip-cert-verify: true, servername: us10m.wxgqlfx.top, network: ws, ws-opts: {path: /TG@wxgqlfx, headers: {Host: us10m.wxgqlfx.top}}}
-    - {name: 美国15, server: tg.wxgqlfx.xyz, port: 8443, type: vless, uuid: 2767bbe0-b020-4176-de65-8932d436673d, tls: true, tfo: false, skip-cert-verify: true, servername: usnf10.wxgqlfx.top, network: ws, ws-opts: {path: /TG@wxgqlfx, headers: {Host: usnf10.wxgqlfx.top}}}
+    - {name: 美国15, server: tg.wxgqlfx.xyz, port: 8443, type: vless, uuid: 2767bbe0-b020-4176-de65-8932d436673d, tls: true, tfo: false, skip-cert-verify: true, servername: usnf10.wxgqlfx.top, network: ws, ws-opts: {path: /TG@wxgqlfx, headers: {Host: usnf10.wxgqlfx.top}}} 
+
+    - name: "s1"
+      type: vless
+      server: 91.149.239.23
+      port: 12345
+      udp: true
+      uuid: 37c5c02a-45ca-4c5c-a5c0-e8238571d11a
+      flow: ""
+      packet-encoding: xudp
+      tls: true
+      servername: nijigen-works.jp
+      client-fingerprint: chrome
+      skip-cert-verify: true
+      reality-opts:
+        public-key: 5CbVsui_i_MD3uKpQPKm7a0Ch711dN5ZHV5tZap-HF8
+        short-id: d066b03b353640b8
+      network: grpc
+      grpc-opts:
+        grpc-service-name: 23MKsu1m
+
 proxy-groups:  
   - name: PROXY
     type: select
     proxies:
       - 美国
       - 香港
+      - s1
       - DIRECT
 
       
@@ -352,8 +373,8 @@ proxy-groups:
       - 香港3
       - 香港4
       - 香港5
-      - 香港6     
-      
+      - 香港6
+    
 rules:
   - GEOIP,private,DIRECT,no-resolve
   - GEOIP,LAN,DIRECT
