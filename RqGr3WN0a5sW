@@ -310,6 +310,9 @@ proxies:
     - {name: 美国13, server: tg.wxgqlfx.xyz, port: 8443, type: vless, uuid: 309c4a15-6568-4e4e-eac6-480e1691e055, tls: true, tfo: false, skip-cert-verify: true, servername: us3.wxgqlfx.xyz, network: ws, ws-opts: {path: /TG@wxgqlfx, headers: {Host: us3.wxgqlfx.xyz}}}
     - {name: 美国14, server: tg.wxgqlfx.xyz, port: 8443, type: vless, uuid: 7bb6aacc-12a9-4b82-d0a8-a4f3b3525ecf, tls: true, tfo: false, skip-cert-verify: true, servername: us10m.wxgqlfx.top, network: ws, ws-opts: {path: /TG@wxgqlfx, headers: {Host: us10m.wxgqlfx.top}}}
     - {name: 美国15, server: tg.wxgqlfx.xyz, port: 8443, type: vless, uuid: 2767bbe0-b020-4176-de65-8932d436673d, tls: true, tfo: false, skip-cert-verify: true, servername: usnf10.wxgqlfx.top, network: ws, ws-opts: {path: /TG@wxgqlfx, headers: {Host: usnf10.wxgqlfx.top}}} 
+    - { name: 美国16, type: ss, server: free-relay.t01.themars.top, port: 49902, cipher: chacha20-ietf-poly1305, password: 9ba6570b-b9b9-43fc-8a21-b9c904779b18, udp: true }
+    - { name: 新加坡1, type: ss, server: free-relay.t01.themars.top, port: 49900, cipher: chacha20-ietf-poly1305, password: 9ba6570b-b9b9-43fc-8a21-b9c904779b18, udp: true }
+    - { name: 新加坡2, type: ss, server: free-relay.t01.themars.top, port: 49901, cipher: chacha20-ietf-poly1305, password: 9ba6570b-b9b9-43fc-8a21-b9c904779b18, udp: true }
 
     - name: "s1"
       type: vless
@@ -361,6 +364,9 @@ proxy-groups:
       - 美国13
       - 美国14
       - 美国15
+      - 美国16
+      - 新加坡1
+      - 新加坡2
       
   - name: 香港
     type: load-balance
