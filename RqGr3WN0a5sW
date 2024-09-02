@@ -305,16 +305,8 @@ proxies:
       alterId: 64
       cipher: auto
       skip-cert-verify: true
-    - {name: 美国11, server: tg.wxgqlfx.xyz, port: 8443, type: vless, uuid: 81eb4419-21f8-4173-991f-4c5ecf76b063, tls: true, tfo: false, skip-cert-verify: true, servername: us1.wxgqlfx.top, network: ws, ws-opts: {path: /TG@wxgqlfx, headers: {Host: us1.wxgqlfx.top}}}
-    - {name: 美国12, server: tg.wxgqlfx.xyz, port: 8443, type: vless, uuid: fd7e3ffa-dd3c-4ca1-b076-d7a12ceaaf89, tls: true, tfo: false, skip-cert-verify: true, servername: us2.wxgqlfx.top, network: ws, ws-opts: {path: /TG@wxgqlfx, headers: {Host: us2.wxgqlfx.top}}}
-    - {name: 美国13, server: tg.wxgqlfx.xyz, port: 8443, type: vless, uuid: 309c4a15-6568-4e4e-eac6-480e1691e055, tls: true, tfo: false, skip-cert-verify: true, servername: us3.wxgqlfx.xyz, network: ws, ws-opts: {path: /TG@wxgqlfx, headers: {Host: us3.wxgqlfx.xyz}}}
-    - {name: 美国14, server: tg.wxgqlfx.xyz, port: 8443, type: vless, uuid: 7bb6aacc-12a9-4b82-d0a8-a4f3b3525ecf, tls: true, tfo: false, skip-cert-verify: true, servername: us10m.wxgqlfx.top, network: ws, ws-opts: {path: /TG@wxgqlfx, headers: {Host: us10m.wxgqlfx.top}}}
-    - {name: 美国15, server: tg.wxgqlfx.xyz, port: 8443, type: vless, uuid: 2767bbe0-b020-4176-de65-8932d436673d, tls: true, tfo: false, skip-cert-verify: true, servername: usnf10.wxgqlfx.top, network: ws, ws-opts: {path: /TG@wxgqlfx, headers: {Host: usnf10.wxgqlfx.top}}} 
-    - { name: 美国16, type: ss, server: free-relay.t01.themars.top, port: 49902, cipher: chacha20-ietf-poly1305, password: 9ba6570b-b9b9-43fc-8a21-b9c904779b18, udp: true }
-    - { name: 新加坡1, type: ss, server: free-relay.t01.themars.top, port: 49900, cipher: chacha20-ietf-poly1305, password: 9ba6570b-b9b9-43fc-8a21-b9c904779b18, udp: true }
-    - { name: 新加坡2, type: ss, server: free-relay.t01.themars.top, port: 49901, cipher: chacha20-ietf-poly1305, password: 9ba6570b-b9b9-43fc-8a21-b9c904779b18, udp: true }
-
-    - name: "s1"
+      
+    - name: "S1"
       type: vless
       server: 91.149.239.23
       port: 12345
@@ -332,6 +324,1621 @@ proxies:
       network: grpc
       grpc-opts:
         grpc-service-name: 23MKsu1m
+        
+    - name: S_0                     
+      type: vmess
+      server: 104.19.38.8             
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz
+
+    - name: S_1                    
+      type: vmess
+      server: 104.26.0.56           
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz 
+
+    - name: S_2
+      type: vmess
+      server: 23.227.38.3         
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz
+
+    - name: S_3           
+      type: vmess
+      server: 104.19.38.12                 
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz 
+
+    - name: S_4           
+      type: vmess
+      server: 172.64.175.88                 
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz 
+
+    - name: S_5           
+      type: vmess
+      server: 172.64.99.22               
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz 
+          
+    - name: S_6          
+      type: vmess
+      server: 104.19.21.71              
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz 
+          
+    - name: S_7          
+      type: vmess
+      server: 172.64.175.213             
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz   
+
+    - name: S_8         
+      type: vmess
+      server: 172.64.198.249            
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz   
+
+    - name: S_9        
+      type: vmess
+      server: 172.64.194.76            
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz  
+          
+    - name: S_10        
+      type: vmess
+      server: 104.19.21.63           
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz  
+          
+    - name: S_11       
+      type: vmess
+      server: 104.19.123.11           
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz  
+          
+    - name: S_12      
+      type: vmess
+      server: 104.18.57.111         
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz 
+
+    - name: S_13      
+      type: vmess
+      server: 104.19.21.230    
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz 
+          
+    - name: S_14    
+      type: vmess
+      server: 104.19.21.230    
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz  
+
+    - name: S_15    
+      type: vmess
+      server: 104.19.46.103  
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz 
+          
+    - name: S_16   
+      type: vmess
+      server: 104.19.32.216
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz 
+          
+    - name: S_17   
+      type: vmess
+      server: 104.19.47.65
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz 
+          
+    - name: S_18   
+      type: vmess
+      server: 104.19.58.175
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz 
+
+    - name: S_19   
+      type: vmess
+      server: 104.19.55.49
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz 
+          
+    - name: S_20   
+      type: vmess
+      server: 104.19.42.49
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz 
+          
+    - name: S_21   
+      type: vmess
+      server: 104.17.106.151
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz 
+
+    - name: S_22  
+      type: vmess
+      server: 104.19.57.4
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz 
+
+    - name: S_23 
+      type: vmess
+      server: 104.19.59.89
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz 
+
+    - name: S_24 
+      type: vmess
+      server: 104.20.17.186
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz 
+     
+    - name: S_25
+      type: vmess
+      server: 104.20.25.146
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz 
+
+    - name: S_26
+      type: vmess
+      server: 104.20.25.146
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz 
+          
+    - name: S_27
+      type: vmess
+      server: 104.26.7.132
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz 
+          
+    - name: S_28
+      type: vmess
+      server: 104.20.25.146
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz 
+
+    - name: S_29
+      type: vmess
+      server: 104.20.17.186
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz 
+          
+    - name: S_30   
+      type: vmess
+      server: 104.19.45.11
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz 
+
+    - name: S_31                    
+      type: vmess
+      server: 104.19.45.13                
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz 
+
+    - name: S_32
+      type: vmess
+      server: 104.19.45.15     
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz
+
+    - name: S_33           
+      type: vmess
+      server: 104.19.45.17                     
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz 
+
+    - name: S_34           
+      type: vmess
+      server: 104.19.45.19                 
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz 
+
+    - name: S_35           
+      type: vmess
+      server: 104.19.45.31              
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz 
+          
+    - name: S_36          
+      type: vmess
+      server: 104.19.45.35               
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz 
+          
+    - name: S_37          
+      type: vmess
+      server: 104.19.45.42             
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz   
+
+    - name: S_38         
+      type: vmess
+      server: 104.19.45.47             
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz   
+
+    - name: S_39        
+      type: vmess
+      server: 104.19.45.50            
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz  
+          
+    - name: S_40        
+      type: vmess
+      server: 104.19.45.90          
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz  
+          
+    - name: S_41       
+      type: vmess
+      server: 104.26.5.56            
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz  
+          
+    - name: S_42      
+      type: vmess
+      server: 104.26.5.66         
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz 
+
+    - name: S_43      
+      type: vmess
+      server: 104.26.5.67
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz 
+          
+    - name: S_44    
+      type: vmess
+      server: 104.26.5.88
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz  
+
+    - name: S_45    
+      type: vmess
+      server: 104.26.5.90
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz 
+          
+    - name: S_46   
+      type: vmess
+      server: 104.26.5.103
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz 
+          
+    - name: S_47   
+      type: vmess
+      server: 104.26.5.112
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz 
+          
+    - name: S_48   
+      type: vmess
+      server: 104.26.5.113
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz 
+
+    - name: S_49   
+      type: vmess
+      server: 104.26.5.123
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz 
+          
+    - name: S_50   
+      type: vmess
+      server: 104.26.5.145
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz 
+          
+    - name: S_51   
+      type: vmess
+      server: 162.159.140.19
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz 
+
+    - name: S_52  
+      type: vmess
+      server: 162.159.140.33
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz 
+
+    - name: S_53 
+      type: vmess
+      server: 162.159.140.39
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz 
+
+    - name: S_54 
+      type: vmess
+      server: 162.159.140.45
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz 
+     
+    - name: S_55
+      type: vmess
+      server: 162.159.140.56
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz 
+
+    - name: S_56
+      type: vmess
+      server: 162.159.140.66
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz 
+          
+    - name: S_57
+      type: vmess
+      server: 162.159.140.77
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz 
+          
+    - name: S_58
+      type: vmess
+      server: 162.159.140.89
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz 
+
+    - name: S_59
+      type: vmess
+      server: 162.159.140.91
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz 
+          
+    - name: S_60   
+      type: vmess
+      server: 162.159.140.93
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz   
+    - name: S_61                    
+      type: vmess
+      server: 172.64.167.5               
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz 
+
+    - name: S_62
+      type: vmess
+      server: 172.64.167.8         
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz
+
+    - name: S_63           
+      type: vmess
+      server: 172.64.167.10                 
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz 
+
+    - name: S_64           
+      type: vmess
+      server: 172.64.167.15                  
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz 
+
+    - name: S_65           
+      type: vmess
+      server: 172.64.167.19               
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz 
+          
+    - name: S_66          
+      type: vmess
+      server: 172.64.167.22              
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz 
+          
+    - name: S_67          
+      type: vmess
+      server: 172.64.167.25               
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz   
+
+    - name: S_68         
+      type: vmess
+      server: 172.64.167.29           
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz   
+
+    - name: S_69        
+      type: vmess
+      server: 172.64.167.35          
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz  
+          
+    - name: S_70        
+      type: vmess
+      server: 172.64.167.44        
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz  
+          
+    - name: S_71       
+      type: vmess
+      server: 172.64.233.7      
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz  
+          
+    - name: S_72      
+      type: vmess
+      server: 172.64.233.9      
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz 
+
+    - name: S_73      
+      type: vmess
+      server: 172.64.233.15   
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz 
+          
+    - name: S_74    
+      type: vmess
+      server: 172.64.233.17
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz  
+
+    - name: S_75    
+      type: vmess
+      server: 172.64.233.24
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz 
+          
+    - name: S_76   
+      type: vmess
+      server: 172.64.233.27
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz 
+          
+    - name: S_77   
+      type: vmess
+      server: 172.64.233.32
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz 
+          
+    - name: S_78   
+      type: vmess
+      server: 172.64.233.35
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz 
+
+    - name: S_79   
+      type: vmess
+      server: 172.64.233.37
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz 
+          
+    - name: S_80   
+      type: vmess
+      server: 172.64.233.43
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz 
+          
+    - name: S_81   
+      type: vmess
+      server: 172.64.166.2
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz 
+
+    - name: S_82  
+      type: vmess
+      server: 172.64.166.8
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz 
+
+    - name: S_83 
+      type: vmess
+      server: 172.64.166.9
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz 
+
+    - name: S_84 
+      type: vmess
+      server: 172.64.166.12
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz 
+     
+    - name: S_85
+      type: vmess
+      server: 172.64.166.16
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz 
+
+    - name: S_86
+      type: vmess
+      server: 172.64.166.20
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz 
+          
+    - name: S_87
+      type: vmess
+      server: 172.64.166.22
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz 
+          
+    - name: S_88
+      type: vmess
+      server: 172.64.166.28
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz 
+
+    - name: S_89
+      type: vmess
+      server: 172.64.166.32
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz 
+          
+    - name: S_90   
+      type: vmess
+      server: 172.64.166.33
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz 
+          
+    - name: S_91  
+      type: vmess
+      server: fbi.gov
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz 
+
+    - name: S_92 
+      type: vmess
+      server: shopify.com
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz 
+     
+    - name: S_93 
+      type: vmess
+      server: icook.tw
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz 
+          
+    - name: S_94
+      type: vmess
+      server: ip.sb
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz 
+          
+    - name: S_95
+      type: vmess
+      server: japan.com
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz 
+         
+    - name: S_96
+      type: vmess
+      server: malaysia.com
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz 
+
+    - name: S_97
+      type: vmess
+      server: russia.com
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz 
+
+    - name: S_98
+      type: vmess
+      server: singapore.com
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz 
+
+    - name: S_99
+      type: vmess
+      server: skk.moe
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz    
+
+    - name: S_100
+      type: vmess
+      server: www.visa.com
+      port: 2086                                     
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339       
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: false
+      network: ws
+      servername: ip1.1789034.xyz                    
+      ws-opts:
+        path: "github.com/Alvin9999"                             
+        headers:
+          Host: ip1.1789034.xyz 
 
 proxy-groups:  
   - name: PROXY
@@ -339,7 +1946,7 @@ proxy-groups:
     proxies:
       - 美国
       - 香港
-      - s1
+      - S
       - DIRECT
 
       
@@ -359,14 +1966,6 @@ proxy-groups:
       - 美国8
       - 美国9
       - 美国10
-      - 美国11
-      - 美国12
-      - 美国13
-      - 美国14
-      - 美国15
-      - 美国16
-      - 新加坡1
-      - 新加坡2
       
   - name: 香港
     type: load-balance
@@ -380,6 +1979,116 @@ proxy-groups:
       - 香港4
       - 香港5
       - 香港6
+      
+  - name: S
+    type: load-balance
+    url: http://www.gstatic.com/generate_204
+    interval: 3600
+    strategy: round-robin
+    proxies:
+      - S1
+      - S_0
+      - S_1
+      - S_2
+      - S_3
+      - S_4
+      - S_5
+      - S_6
+      - S_7
+      - S_8
+      - S_9
+      - S_10
+      - S_11
+      - S_12
+      - S_13
+      - S_14
+      - S_15
+      - S_16
+      - S_17
+      - S_18
+      - S_19
+      - S_20
+      - S_21
+      - S_22
+      - S_23
+      - S_24
+      - S_25
+      - S_26
+      - S_27
+      - S_28
+      - S_29
+      - S_30
+      - S_31
+      - S_32
+      - S_33
+      - S_34
+      - S_35
+      - S_36
+      - S_37
+      - S_38
+      - S_39
+      - S_40
+      - S_41
+      - S_42
+      - S_43
+      - S_44
+      - S_45
+      - S_46
+      - S_47
+      - S_48
+      - S_49
+      - S_50
+      - S_51
+      - S_52
+      - S_53
+      - S_54
+      - S_55
+      - S_56
+      - S_57
+      - S_58
+      - S_59
+      - S_60
+      - S_61
+      - S_62
+      - S_63
+      - S_64
+      - S_65
+      - S_66
+      - S_67
+      - S_68
+      - S_69
+      - S_70
+      - S_71
+      - S_72
+      - S_73
+      - S_74
+      - S_75
+      - S_76
+      - S_77
+      - S_78
+      - S_79
+      - S_80
+      - S_81
+      - S_82
+      - S_83
+      - S_84
+      - S_85
+      - S_86
+      - S_87
+      - S_88
+      - S_89
+      - S_90
+      - S_91
+      - S_92
+      - S_93
+      - S_94
+      - S_95
+      - S_96
+      - S_97
+      - S_98
+      - S_99
+      - S_100
+      
     
 rules:
   - GEOIP,private,DIRECT,no-resolve
