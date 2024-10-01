@@ -44,6 +44,9 @@ proxies:
       network: grpc
       grpc-opts:
         grpc-service-name: 23MKsu1m
+        
+    - { name: S_0, server: chgo-fr2c.88888801.xyz, port: 443, type: trojan, password: 50d8d65d-9d7d-3830-864a-dad899e9c4a8, udp: true, network: ws, ws-opts: { path: /2024dc09-chrome-gooo-b9cf-836523956698 } }
+    - { name: S_1, server: chgo-kr1c.88888801.xyz, port: 443, type: trojan, password: 50d8d65d-9d7d-3830-864a-dad899e9c4a8, udp: true, network: ws, ws-opts: { path: /2024dc09-chrome-gooo-b9cf-836523956698 } }
 
 
 proxy-groups:  
@@ -59,8 +62,8 @@ proxy-groups:
     strategy: round-robin
     proxies:
       - S1
-      # - S_0
-      # - S_1
+      - S_0
+      - S_1
       # - S_2
       # - S_3
       # - S_4
