@@ -48,7 +48,38 @@ proxies:
     - { name: S_0, server: chgo-fr2c.88888801.xyz, port: 443, type: trojan, password: 50d8d65d-9d7d-3830-864a-dad899e9c4a8, udp: true, network: ws, ws-opts: { path: /2024dc09-chrome-gooo-b9cf-836523956698 } }
     - { name: S_1, server: chgo-kr1c.88888801.xyz, port: 443, type: trojan, password: 50d8d65d-9d7d-3830-864a-dad899e9c4a8, udp: true, network: ws, ws-opts: { path: /2024dc09-chrome-gooo-b9cf-836523956698 } }
 
-
+    - name: "S2"
+      type: vmess
+      server: 104.21.238.36
+      port: 2086
+      udp: true
+      uuid: ee420fda-efb7-48a8-9249-8987e36ebd9e
+      alterId: 0
+      cipher: auto
+      network: ws
+      ws-opts:
+        path: /github.com/Alvin9999
+        headers:
+          Host: ip12.9447609.xyz
+      smux:
+        enabled: false
+        
+    - name: "S3"
+      type: vmess
+      server: 104.21.238.38
+      port: 2086
+      udp: true
+      uuid: ee420fda-efb7-48a8-9249-8987e36ebd9e
+      alterId: 0
+      cipher: auto
+      network: ws
+      ws-opts:
+        path: /github.com/Alvin9999
+        headers:
+          Host: ip12.9447609.xyz
+      smux:
+        enabled: false
+        
 proxy-groups:  
   - name: PROXY
     type: select
@@ -61,9 +92,11 @@ proxy-groups:
     interval: 3600
     strategy: round-robin
     proxies:
-      - S1
+      # - S1
       - S_0
       - S_1
+      - S2
+      - S3
       # - S_2
       # - S_3
       # - S_4
