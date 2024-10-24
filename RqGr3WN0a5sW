@@ -79,6 +79,83 @@ proxies:
           Host: ip12.9447609.xyz
       smux:
         enabled: false
+
+    - name: S_2                     
+      type: vmess
+      server: 104.21.238.200
+      port: 8443
+      uuid: 9201ffaa-6ca3-4f57-8b1f-266a2f390e43
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: true
+      servername: http1.9290254.xyz
+      network: ws
+      ws-opts:
+        path: github.com/Alvin9999
+        headers:
+          Host: http1.9290254.xyz
+        early-data-header-name: Sec-WebSocket-Protocol
+        v2ray-http-upgrade: true
+        v2ray-http-upgrade-fast-open: true
+
+    - name: S_3                  
+      type: vmess
+      server: 104.21.238.201
+      port: 8443
+      uuid: 9201ffaa-6ca3-4f57-8b1f-266a2f390e43
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: true
+      servername: http1.9290254.xyz
+      network: ws
+      ws-opts:
+        path: github.com/Alvin9999
+        headers:
+          Host: http1.9290254.xyz
+        early-data-header-name: Sec-WebSocket-Protocol
+        v2ray-http-upgrade: true
+        v2ray-http-upgrade-fast-open: true
+        
+    - name: S_4                   
+      type: vmess
+      server: 104.21.238.202
+      port: 8443
+      uuid: 9201ffaa-6ca3-4f57-8b1f-266a2f390e43
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: true
+      servername: http1.9290254.xyz
+      network: ws
+      ws-opts:
+        path: github.com/Alvin9999
+        headers:
+          Host: http1.9290254.xyz
+        early-data-header-name: Sec-WebSocket-Protocol
+        v2ray-http-upgrade: true
+        v2ray-http-upgrade-fast-open: true
+
+    - name: S_5                  
+      type: vmess
+      server: 104.21.238.203
+      port: 8443
+      uuid: 9201ffaa-6ca3-4f57-8b1f-266a2f390e43
+      alterId: 0
+      cipher: auto
+      udp: true
+      tls: true
+      servername: http1.9290254.xyz
+      network: ws
+      ws-opts:
+        path: github.com/Alvin9999
+        headers:
+          Host: http1.9290254.xyz
+        early-data-header-name: Sec-WebSocket-Protocol
+        v2ray-http-upgrade: true
+        v2ray-http-upgrade-fast-open: true
+
         
 proxy-groups:  
   - name: PROXY
@@ -97,10 +174,10 @@ proxy-groups:
       - S_1
       - S2
       - S3
-      # - S_2
-      # - S_3
-      # - S_4
-      # - S_5
+      - S_2
+      - S_3
+      - S_4
+      - S_5
       # - S_6
       # - S_7
       # - S_8
