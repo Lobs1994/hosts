@@ -2,6 +2,13 @@ allow-lan: true
 mode: rule
 log-level: info
 unified-delay: true
+sniffer:
+  enable: true
+  force-dns-mapping: true
+  parse-pure-ip: true
+  sniff:
+    TLS:
+      ports: [443, 8443]
 dns:
   enable: true
   use-hosts: false
@@ -156,6 +163,17 @@ proxies:
         v2ray-http-upgrade: true
         v2ray-http-upgrade-fast-open: true
 
+    - name: S_6
+      type: hysteria2
+      server: 185.22.152.93
+      port: 47382
+      ports: 20000-30000
+      password: dongtaiwang.com
+      sni: www.bing.com
+      skip-cert-verify: true
+      alpn:
+        - h3
+
         
 proxy-groups:  
   - name: PROXY
@@ -178,7 +196,7 @@ proxy-groups:
       - S_3
       - S_4
       - S_5
-      # - S_6
+      - S_6
       # - S_7
       # - S_8
       # - S_9
