@@ -110,7 +110,35 @@ proxies:
       up: "11 Mbps"
       down: "55 Mbps"
 
+    - name: S_4
+      type: hysteria
+      server: 185.22.155.71
+      port: 15424
+      ports: 30000-40000
+      auth-str: dongtaiwang.com
+      obfs: dongtaiwang.com
+      alpn:
+        - h3
+      tls: true
+      sni: bing.com
+      servername: bing.com
+      skip-cert-verify: true
+      up: "11 Mbps"
+      down: "55 Mbps"
         
+    - name: S_5
+      type: hysteria
+      server: 208.87.243.151
+      port: 38670
+      ports: 10000-20000
+      auth-str: dongtaiwang.com
+      alpn:
+        - h3
+      sni: www.bing.com
+      skip-cert-verify: true
+      up: "11 Mbps"
+      down: "55 Mbps"
+
 proxy-groups:  
   - name: PROXY
     type: select
@@ -126,12 +154,10 @@ proxy-groups:
       # - S1
       - S_0
       - S_1
-      - S2
-      - S3
       - S_2
       - S_3
-      # - S_4
-      # - S_5
+      - S_4
+      - S_5
       # - S_6
       # - S_7
       # - S_8
