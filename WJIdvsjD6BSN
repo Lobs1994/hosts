@@ -79,3 +79,4 @@ proxies:
   - {name: SG_2 10, server: 120.232.153.57, port: 50137, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52206604:CoPPH9, obfs-param: TG.WangCai2, udp: true}
   - {name: SG_3 10, server: 120.232.153.57, port: 50138, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52206604:CoPPH9, obfs-param: TG.WangCai2, udp: true}
   - {name: SG_4 10, server: 120.232.153.57, port: 50139, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52206604:CoPPH9, obfs-param: TG.WangCai2, udp: true}
+
