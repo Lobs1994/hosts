@@ -177,10 +177,11 @@ proxy-groups:
       - S_5
       
   - name: LobselXR-test
-    type: url-test
+    type: load-balance
     url: http://www.gstatic.com/generate_204
-    interval: 1000
-    use:    
+    interval: 600
+    strategy: round-robin
+    use:
       - LobselXR
 
       
