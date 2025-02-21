@@ -1,0 +1,251 @@
+proxies:
+  - {name: 🇯🇵JP_1, server: 120.232.153.46, port: 50132, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52206604:CoPPH9, obfs-param: TG.WangCai2, udp: true}
+  - {name: 🇯🇵JP_2, server: 120.232.153.46, port: 50133, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52206604:CoPPH9, obfs-param: TG.WangCai2, udp: true}
+  - {name: 🇯🇵JP_3, server: 120.232.153.46, port: 50134, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52206604:CoPPH9, obfs-param: TG.WangCai2, udp: true}
+  - {name: 🇯🇵JP_4, server: 120.232.153.46, port: 50135, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52206604:CoPPH9, obfs-param: TG.WangCai2, udp: true}
+  - {name: 🇸🇬SG_1, server: 120.232.153.46, port: 50136, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52206604:CoPPH9, obfs-param: TG.WangCai2, udp: true}
+  - {name: 🇸🇬SG_2, server: 120.232.153.46, port: 50137, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52206604:CoPPH9, obfs-param: TG.WangCai2, udp: true}
+  - {name: 🇸🇬SG_3, server: 120.232.153.46, port: 50138, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52206604:CoPPH9, obfs-param: TG.WangCai2, udp: true}
+  - {name: 🇸🇬SG_4, server: 120.232.153.46, port: 50139, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52206604:CoPPH9, obfs-param: TG.WangCai2, udp: true}
+  - {name: 🇯🇵JP_1 2, server: 120.232.153.47, port: 50132, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52206604:CoPPH9, obfs-param: TG.WangCai2, udp: true}
+  - {name: 🇯🇵JP_2 2, server: 120.232.153.47, port: 50133, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52206604:CoPPH9, obfs-param: TG.WangCai2, udp: true}
+  - {name: 🇯🇵JP_3 2, server: 120.232.153.47, port: 50134, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52206604:CoPPH9, obfs-param: TG.WangCai2, udp: true}
+  - {name: 🇯🇵JP_4 2, server: 120.232.153.47, port: 50135, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52206604:CoPPH9, obfs-param: TG.WangCai2, udp: true}
+  - {name: 🇸🇬SG_1 2, server: 120.232.153.47, port: 50136, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52206604:CoPPH9, obfs-param: TG.WangCai2, udp: true}
+  - {name: 🇸🇬SG_2 2, server: 120.232.153.47, port: 50137, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52206604:CoPPH9, obfs-param: TG.WangCai2, udp: true}
+  - {name: 🇸🇬SG_3 2, server: 120.232.153.47, port: 50138, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52206604:CoPPH9, obfs-param: TG.WangCai2, udp: true}
+  - {name: 🇸🇬SG_4 2, server: 120.232.153.47, port: 50139, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52206604:CoPPH9, obfs-param: TG.WangCai2, udp: true}
+  - {name: 🇯🇵JP_1 3, server: 120.232.153.48, port: 50132, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52206604:CoPPH9, obfs-param: TG.WangCai2, udp: true}
+  - {name: 🇯🇵JP_2 3, server: 120.232.153.48, port: 50133, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52206604:CoPPH9, obfs-param: TG.WangCai2, udp: true}
+  - {name: 🇯🇵JP_3 3, server: 120.232.153.48, port: 50134, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52206604:CoPPH9, obfs-param: TG.WangCai2, udp: true}
+  - {name: 🇯🇵JP_4 3, server: 120.232.153.48, port: 50135, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52206604:CoPPH9, obfs-param: TG.WangCai2, udp: true}
+  - {name: 🇸🇬SG_1 3, server: 120.232.153.48, port: 50136, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52206604:CoPPH9, obfs-param: TG.WangCai2, udp: true}
+  - {name: 🇸🇬SG_2 3, server: 120.232.153.48, port: 50137, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52206604:CoPPH9, obfs-param: TG.WangCai2, udp: true}
+  - {name: 🇸🇬SG_3 3, server: 120.232.153.48, port: 50138, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52206604:CoPPH9, obfs-param: TG.WangCai2, udp: true}
+  - {name: 🇸🇬SG_4 3, server: 120.232.153.48, port: 50139, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52206604:CoPPH9, obfs-param: TG.WangCai2, udp: true}
+  - {name: 🇯🇵JP_1 4, server: 120.232.153.49, port: 50132, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52206604:CoPPH9, obfs-param: TG.WangCai2, udp: true}
+  - {name: 🇯🇵JP_2 4, server: 120.232.153.49, port: 50133, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52206604:CoPPH9, obfs-param: TG.WangCai2, udp: true}
+  - {name: 🇯🇵JP_3 4, server: 120.232.153.49, port: 50134, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52206604:CoPPH9, obfs-param: TG.WangCai2, udp: true}
+  - {name: 🇯🇵JP_4 4, server: 120.232.153.49, port: 50135, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52206604:CoPPH9, obfs-param: TG.WangCai2, udp: true}
+  - {name: 🇸🇬SG_1 4, server: 120.232.153.49, port: 50136, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52206604:CoPPH9, obfs-param: TG.WangCai2, udp: true}
+  - {name: 🇸🇬SG_2 4, server: 120.232.153.49, port: 50137, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52206604:CoPPH9, obfs-param: TG.WangCai2, udp: true}
+  - {name: 🇸🇬SG_3 4, server: 120.232.153.49, port: 50138, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52206604:CoPPH9, obfs-param: TG.WangCai2, udp: true}
+  - {name: 🇸🇬SG_4 4, server: 120.232.153.49, port: 50139, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52206604:CoPPH9, obfs-param: TG.WangCai2, udp: true}
+  - {name: 🇯🇵JP_1 5, server: 120.232.153.50, port: 50132, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52206604:CoPPH9, obfs-param: TG.WangCai2, udp: true}
+  - {name: 🇯🇵JP_2 5, server: 120.232.153.50, port: 50133, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52206604:CoPPH9, obfs-param: TG.WangCai2, udp: true}
+  - {name: 🇯🇵JP_3 5, server: 120.232.153.50, port: 50134, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52206604:CoPPH9, obfs-param: TG.WangCai2, udp: true}
+  - {name: 🇯🇵JP_4 5, server: 120.232.153.50, port: 50135, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52206604:CoPPH9, obfs-param: TG.WangCai2, udp: true}
+  - {name: 🇸🇬SG_1 5, server: 120.232.153.50, port: 50136, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52206604:CoPPH9, obfs-param: TG.WangCai2, udp: true}
+  - {name: 🇸🇬SG_2 5, server: 120.232.153.50, port: 50137, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52206604:CoPPH9, obfs-param: TG.WangCai2, udp: true}
+  - {name: 🇸🇬SG_3 5, server: 120.232.153.50, port: 50138, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52206604:CoPPH9, obfs-param: TG.WangCai2, udp: true}
+  - {name: 🇸🇬SG_4 5, server: 120.232.153.50, port: 50139, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52206604:CoPPH9, obfs-param: TG.WangCai2, udp: true}
+  - {name: 🇯🇵JP_1 6, server: 120.232.153.53, port: 50132, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52206604:CoPPH9, obfs-param: TG.WangCai2, udp: true}
+  - {name: 🇯🇵JP_2 6, server: 120.232.153.53, port: 50133, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52206604:CoPPH9, obfs-param: TG.WangCai2, udp: true}
+  - {name: 🇯🇵JP_3 6, server: 120.232.153.53, port: 50134, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52206604:CoPPH9, obfs-param: TG.WangCai2, udp: true}
+  - {name: 🇯🇵JP_4 6, server: 120.232.153.53, port: 50135, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52206604:CoPPH9, obfs-param: TG.WangCai2, udp: true}
+  - {name: 🇸🇬SG_1 6, server: 120.232.153.53, port: 50136, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52206604:CoPPH9, obfs-param: TG.WangCai2, udp: true}
+  - {name: 🇸🇬SG_2 6, server: 120.232.153.53, port: 50137, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52206604:CoPPH9, obfs-param: TG.WangCai2, udp: true}
+  - {name: 🇸🇬SG_3 6, server: 120.232.153.53, port: 50138, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52206604:CoPPH9, obfs-param: TG.WangCai2, udp: true}
+  - {name: 🇸🇬SG_4 6, server: 120.232.153.53, port: 50139, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52206604:CoPPH9, obfs-param: TG.WangCai2, udp: true}
+  - {name: 🇯🇵JP_1 7, server: 120.232.153.54, port: 50132, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52206604:CoPPH9, obfs-param: TG.WangCai2, udp: true}
+  - {name: 🇯🇵JP_2 7, server: 120.232.153.54, port: 50133, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52206604:CoPPH9, obfs-param: TG.WangCai2, udp: true}
+  - {name: 🇯🇵JP_3 7, server: 120.232.153.54, port: 50134, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52206604:CoPPH9, obfs-param: TG.WangCai2, udp: true}
+  - {name: 🇯🇵JP_4 7, server: 120.232.153.54, port: 50135, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52206604:CoPPH9, obfs-param: TG.WangCai2, udp: true}
+  - {name: 🇸🇬SG_1 7, server: 120.232.153.54, port: 50136, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52206604:CoPPH9, obfs-param: TG.WangCai2, udp: true}
+  - {name: 🇸🇬SG_2 7, server: 120.232.153.54, port: 50137, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52206604:CoPPH9, obfs-param: TG.WangCai2, udp: true}
+  - {name: 🇸🇬SG_3 7, server: 120.232.153.54, port: 50138, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52206604:CoPPH9, obfs-param: TG.WangCai2, udp: true}
+  - {name: 🇸🇬SG_4 7, server: 120.232.153.54, port: 50139, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52206604:CoPPH9, obfs-param: TG.WangCai2, udp: true}
+  - {name: 🇯🇵JP_1 8, server: 120.232.153.55, port: 50132, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52206604:CoPPH9, obfs-param: TG.WangCai2, udp: true}
+  - {name: 🇯🇵JP_2 8, server: 120.232.153.55, port: 50133, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52206604:CoPPH9, obfs-param: TG.WangCai2, udp: true}
+  - {name: 🇯🇵JP_3 8, server: 120.232.153.55, port: 50134, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52206604:CoPPH9, obfs-param: TG.WangCai2, udp: true}
+  - {name: 🇯🇵JP_4 8, server: 120.232.153.55, port: 50135, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52206604:CoPPH9, obfs-param: TG.WangCai2, udp: true}
+  - {name: 🇸🇬SG_1 8, server: 120.232.153.55, port: 50136, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52206604:CoPPH9, obfs-param: TG.WangCai2, udp: true}
+  - {name: 🇸🇬SG_2 8, server: 120.232.153.55, port: 50137, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52206604:CoPPH9, obfs-param: TG.WangCai2, udp: true}
+  - {name: 🇸🇬SG_3 8, server: 120.232.153.55, port: 50138, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52206604:CoPPH9, obfs-param: TG.WangCai2, udp: true}
+  - {name: 🇸🇬SG_4 8, server: 120.232.153.55, port: 50139, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52206604:CoPPH9, obfs-param: TG.WangCai2, udp: true}
+  - {name: 🇯🇵JP_1 9, server: 120.232.153.56, port: 50132, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52206604:CoPPH9, obfs-param: TG.WangCai2, udp: true}
+  - {name: 🇯🇵JP_2 9, server: 120.232.153.56, port: 50133, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52206604:CoPPH9, obfs-param: TG.WangCai2, udp: true}
+  - {name: 🇯🇵JP_3 9, server: 120.232.153.56, port: 50134, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52206604:CoPPH9, obfs-param: TG.WangCai2, udp: true}
+  - {name: 🇯🇵JP_4 9, server: 120.232.153.56, port: 50135, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52206604:CoPPH9, obfs-param: TG.WangCai2, udp: true}
+  - {name: 🇸🇬SG_1 9, server: 120.232.153.56, port: 50136, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52206604:CoPPH9, obfs-param: TG.WangCai2, udp: true}
+  - {name: 🇸🇬SG_2 9, server: 120.232.153.56, port: 50137, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52206604:CoPPH9, obfs-param: TG.WangCai2, udp: true}
+  - {name: 🇸🇬SG_3 9, server: 120.232.153.56, port: 50138, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52206604:CoPPH9, obfs-param: TG.WangCai2, udp: true}
+  - {name: 🇸🇬SG_4 9, server: 120.232.153.56, port: 50139, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52206604:CoPPH9, obfs-param: TG.WangCai2, udp: true}
+  - {name: 🇯🇵JP_1 10, server: 120.232.153.57, port: 50132, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52206604:CoPPH9, obfs-param: TG.WangCai2, udp: true}
+  - {name: 🇯🇵JP_2 10, server: 120.232.153.57, port: 50133, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52206604:CoPPH9, obfs-param: TG.WangCai2, udp: true}
+  - {name: 🇯🇵JP_3 10, server: 120.232.153.57, port: 50134, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52206604:CoPPH9, obfs-param: TG.WangCai2, udp: true}
+  - {name: 🇯🇵JP_4 10, server: 120.232.153.57, port: 50135, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52206604:CoPPH9, obfs-param: TG.WangCai2, udp: true}
+  - {name: 🇸🇬SG_1 10, server: 120.232.153.57, port: 50136, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52206604:CoPPH9, obfs-param: TG.WangCai2, udp: true}
+  - {name: 🇸🇬SG_2 10, server: 120.232.153.57, port: 50137, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52206604:CoPPH9, obfs-param: TG.WangCai2, udp: true}
+  - {name: 🇸🇬SG_3 10, server: 120.232.153.57, port: 50138, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52206604:CoPPH9, obfs-param: TG.WangCai2, udp: true}
+  - {name: 🇸🇬SG_4 10, server: 120.232.153.57, port: 50139, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 52206604:CoPPH9, obfs-param: TG.WangCai2, udp: true}
+proxy-groups:
+  - name: 🔰 节点选择
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - 🇯🇵JP_1
+      - 🇯🇵JP_2
+      - 🇯🇵JP_3
+      - 🇯🇵JP_4
+      - 🇸🇬SG_1
+      - 🇸🇬SG_2
+      - 🇸🇬SG_3
+      - 🇸🇬SG_4
+      - 🇯🇵JP_1 2
+      - 🇯🇵JP_2 2
+      - 🇯🇵JP_3 2
+      - 🇯🇵JP_4 2
+      - 🇸🇬SG_1 2
+      - 🇸🇬SG_2 2
+      - 🇸🇬SG_3 2
+      - 🇸🇬SG_4 2
+      - 🇯🇵JP_1 3
+      - 🇯🇵JP_2 3
+      - 🇯🇵JP_3 3
+      - 🇯🇵JP_4 3
+      - 🇸🇬SG_1 3
+      - 🇸🇬SG_2 3
+      - 🇸🇬SG_3 3
+      - 🇸🇬SG_4 3
+      - 🇯🇵JP_1 4
+      - 🇯🇵JP_2 4
+      - 🇯🇵JP_3 4
+      - 🇯🇵JP_4 4
+      - 🇸🇬SG_1 4
+      - 🇸🇬SG_2 4
+      - 🇸🇬SG_3 4
+      - 🇸🇬SG_4 4
+      - 🇯🇵JP_1 5
+      - 🇯🇵JP_2 5
+      - 🇯🇵JP_3 5
+      - 🇯🇵JP_4 5
+      - 🇸🇬SG_1 5
+      - 🇸🇬SG_2 5
+      - 🇸🇬SG_3 5
+      - 🇸🇬SG_4 5
+      - 🇯🇵JP_1 6
+      - 🇯🇵JP_2 6
+      - 🇯🇵JP_3 6
+      - 🇯🇵JP_4 6
+      - 🇸🇬SG_1 6
+      - 🇸🇬SG_2 6
+      - 🇸🇬SG_3 6
+      - 🇸🇬SG_4 6
+      - 🇯🇵JP_1 7
+      - 🇯🇵JP_2 7
+      - 🇯🇵JP_3 7
+      - 🇯🇵JP_4 7
+      - 🇸🇬SG_1 7
+      - 🇸🇬SG_2 7
+      - 🇸🇬SG_3 7
+      - 🇸🇬SG_4 7
+      - 🇯🇵JP_1 8
+      - 🇯🇵JP_2 8
+      - 🇯🇵JP_3 8
+      - 🇯🇵JP_4 8
+      - 🇸🇬SG_1 8
+      - 🇸🇬SG_2 8
+      - 🇸🇬SG_3 8
+      - 🇸🇬SG_4 8
+      - 🇯🇵JP_1 9
+      - 🇯🇵JP_2 9
+      - 🇯🇵JP_3 9
+      - 🇯🇵JP_4 9
+      - 🇸🇬SG_1 9
+      - 🇸🇬SG_2 9
+      - 🇸🇬SG_3 9
+      - 🇸🇬SG_4 9
+      - 🇯🇵JP_1 10
+      - 🇯🇵JP_2 10
+      - 🇯🇵JP_3 10
+      - 🇯🇵JP_4 10
+      - 🇸🇬SG_1 10
+      - 🇸🇬SG_2 10
+      - 🇸🇬SG_3 10
+      - 🇸🇬SG_4 10
+  - name: ♻️ 自动选择
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    proxies:
+      - 🇯🇵JP_1
+      - 🇯🇵JP_2
+      - 🇯🇵JP_3
+      - 🇯🇵JP_4
+      - 🇸🇬SG_1
+      - 🇸🇬SG_2
+      - 🇸🇬SG_3
+      - 🇸🇬SG_4
+      - 🇯🇵JP_1 2
+      - 🇯🇵JP_2 2
+      - 🇯🇵JP_3 2
+      - 🇯🇵JP_4 2
+      - 🇸🇬SG_1 2
+      - 🇸🇬SG_2 2
+      - 🇸🇬SG_3 2
+      - 🇸🇬SG_4 2
+      - 🇯🇵JP_1 3
+      - 🇯🇵JP_2 3
+      - 🇯🇵JP_3 3
+      - 🇯🇵JP_4 3
+      - 🇸🇬SG_1 3
+      - 🇸🇬SG_2 3
+      - 🇸🇬SG_3 3
+      - 🇸🇬SG_4 3
+      - 🇯🇵JP_1 4
+      - 🇯🇵JP_2 4
+      - 🇯🇵JP_3 4
+      - 🇯🇵JP_4 4
+      - 🇸🇬SG_1 4
+      - 🇸🇬SG_2 4
+      - 🇸🇬SG_3 4
+      - 🇸🇬SG_4 4
+      - 🇯🇵JP_1 5
+      - 🇯🇵JP_2 5
+      - 🇯🇵JP_3 5
+      - 🇯🇵JP_4 5
+      - 🇸🇬SG_1 5
+      - 🇸🇬SG_2 5
+      - 🇸🇬SG_3 5
+      - 🇸🇬SG_4 5
+      - 🇯🇵JP_1 6
+      - 🇯🇵JP_2 6
+      - 🇯🇵JP_3 6
+      - 🇯🇵JP_4 6
+      - 🇸🇬SG_1 6
+      - 🇸🇬SG_2 6
+      - 🇸🇬SG_3 6
+      - 🇸🇬SG_4 6
+      - 🇯🇵JP_1 7
+      - 🇯🇵JP_2 7
+      - 🇯🇵JP_3 7
+      - 🇯🇵JP_4 7
+      - 🇸🇬SG_1 7
+      - 🇸🇬SG_2 7
+      - 🇸🇬SG_3 7
+      - 🇸🇬SG_4 7
+      - 🇯🇵JP_1 8
+      - 🇯🇵JP_2 8
+      - 🇯🇵JP_3 8
+      - 🇯🇵JP_4 8
+      - 🇸🇬SG_1 8
+      - 🇸🇬SG_2 8
+      - 🇸🇬SG_3 8
+      - 🇸🇬SG_4 8
+      - 🇯🇵JP_1 9
+      - 🇯🇵JP_2 9
+      - 🇯🇵JP_3 9
+      - 🇯🇵JP_4 9
+      - 🇸🇬SG_1 9
+      - 🇸🇬SG_2 9
+      - 🇸🇬SG_3 9
+      - 🇸🇬SG_4 9
+      - 🇯🇵JP_1 10
+      - 🇯🇵JP_2 10
+      - 🇯🇵JP_3 10
+      - 🇯🇵JP_4 10
+      - 🇸🇬SG_1 10
+      - 🇸🇬SG_2 10
+      - 🇸🇬SG_3 10
+      - 🇸🇬SG_4 10
