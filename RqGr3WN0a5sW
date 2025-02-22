@@ -32,6 +32,26 @@ dns:
   nameserver:
     - https://1.1.1.1/dns-query
     - https://1.0.0.1/dns-query
+proxy-providers:
+  LobselXR:
+    type: http
+    path: ./profiles/LobselXR.yml
+    url: https://raw.githubusercontent.com/Lobs1994/hosts/refs/heads/main/WJIdvsjD6BSN
+    interval: 86400
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 3600
+      
+  test:
+    type: http
+    path: ./profiles/test.yml
+    url: https://igdux.top/~Clash
+    interval: 86400
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 3600
 proxies:
     - { name: '闲鱼唯一ID：LobselXR智能设备', type: vmess, server: alicdn.com, port: 443, uuid: 37c5c02a-45ca-4c5c-a5c0-e8238571d11a, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, servername: alicdn.com }
     - { name: '淘宝唯一ID：LobselXR智能设备', type: vmess, server: alicdn.com, port: 443, uuid: 37c5c02a-45ca-4c5c-a5c0-e8238571d11a, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, servername: alicdn.com }
@@ -150,6 +170,7 @@ proxy-groups:
     type: select
     proxies:
       - 闲鱼&淘宝唯一ID：LobselXR智能设备
+      - LobselXR-test
 
   - name: 闲鱼&淘宝唯一ID：LobselXR智能设备
     type: load-balance
@@ -163,6 +184,17 @@ proxy-groups:
       - S_3
       - S_4
       - S_5
+      
+  - name: LobselXR-test
+    type: load-balance
+    url: http://www.gstatic.com/generate_204
+    interval: 600
+    strategy: round-robin
+    use:
+      - LobselXR
+      - test
+
+      
     
 rules:
   - GEOIP,private,DIRECT,no-resolve
