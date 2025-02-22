@@ -2,12 +2,12 @@ allow-lan: true
 mode: rule
 log-level: info
 unified-delay: true
-ntp:
-  enable: true
-  write-to-system: true
-  server: time.apple.com
-  port: 123
-  interval: 30
+# ntp:
+  # enable: true
+  # write-to-system: true
+  # server: time.apple.com
+  # port: 123
+  # interval: 30
 dns:
   enable: true
   use-hosts: false
@@ -33,15 +33,15 @@ dns:
     - https://1.1.1.1/dns-query
     - https://1.0.0.1/dns-query
 proxy-providers:
-  LobselXR:
-    type: http
-    path: ./profiles/LobselXR.yml
-    url: https://raw.githubusercontent.com/Lobs1994/hosts/refs/heads/main/WJIdvsjD6BSN
-    interval: 86400
-    health-check:
-      enable: true
-      url: http://www.gstatic.com/generate_204
-      interval: 3600
+  # LobselXR:
+    # type: http
+    # path: ./profiles/LobselXR.yml
+    # url: https://raw.githubusercontent.com/Lobs1994/hosts/refs/heads/main/WJIdvsjD6BSN
+    # interval: 86400
+    # health-check:
+      # enable: true
+      # url: http://www.gstatic.com/generate_204
+      # interval: 3600
       
   test:
     type: http
@@ -191,7 +191,7 @@ proxy-groups:
     interval: 600
     strategy: round-robin
     use:
-      - LobselXR
+      # - LobselXR
       - test
 
       
