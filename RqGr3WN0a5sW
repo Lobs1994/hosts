@@ -42,7 +42,16 @@ proxy-providers:
       enable: true
       url: http://www.gstatic.com/generate_204
       interval: 3600
-    
+      
+  test:
+    type: http
+    path: ./profiles/test.yml
+    url: https://igdux.top/~Clash
+    interval: 86400
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 3600
 proxies:
     - { name: '闲鱼唯一ID：LobselXR智能设备', type: vmess, server: alicdn.com, port: 443, uuid: 37c5c02a-45ca-4c5c-a5c0-e8238571d11a, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, servername: alicdn.com }
     - { name: '淘宝唯一ID：LobselXR智能设备', type: vmess, server: alicdn.com, port: 443, uuid: 37c5c02a-45ca-4c5c-a5c0-e8238571d11a, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, servername: alicdn.com }
@@ -183,6 +192,7 @@ proxy-groups:
     strategy: round-robin
     use:
       - LobselXR
+      - test
 
       
     
