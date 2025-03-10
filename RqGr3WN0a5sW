@@ -2,12 +2,12 @@ allow-lan: true
 mode: rule
 log-level: info
 unified-delay: true
-# ntp:
-  # enable: true
-  # write-to-system: true
-  # server: time.apple.com
-  # port: 123
-  # interval: 30
+ntp:
+  enable: true
+  write-to-system: true
+  server: time.apple.com
+  port: 123
+  interval: 30
 dns:
   enable: true
   use-hosts: false
@@ -112,9 +112,9 @@ proxies:
 
     - name: S_2
       type: hysteria2
-      server: 46.17.41.189
-      port: 51224
-      ports: 10000-20000
+      server: 46.29.163.171
+      port: 18626
+      # ports: 10000-20000
       password: dongtaiwang.com
       sni: www.bing.com
       skip-cert-verify: true
@@ -124,14 +124,14 @@ proxies:
     - name: S_3
       type: hysteria
       server: 195.154.200.178
-      port: 34911
+      port: 44557
       auth-str: dongtaiwang.com
-      obfs: dongtaiwang.com
+      # obfs: dongtaiwang.com
       alpn:
         - h3
       tls: true
-      sni: bing.com
-      servername: bing.com
+      sni: apple.com
+      servername: apple.com
       skip-cert-verify: true
       up: "11 Mbps"
       down: "55 Mbps"
@@ -139,15 +139,15 @@ proxies:
     - name: S_4
       type: hysteria
       server: 185.22.155.71
-      port: 63717
-      ports: 40000-50000
+      port: 10803
+      # ports: 40000-50000
       auth-str: dongtaiwang.com
-      obfs: dongtaiwang.com
+      obfs: ""
       alpn:
         - h3
       tls: true
-      sni: bing.com
-      servername: bing.com
+      sni: apple.com
+      servername: apple.com
       skip-cert-verify: true
       up: "11 Mbps"
       down: "55 Mbps"
@@ -178,8 +178,8 @@ proxy-groups:
     interval: 3600
     strategy: round-robin
     proxies:
-      - S_0
-      - S_1
+      # - S_0
+      # - S_1
       - S_2
       - S_3
       - S_4
