@@ -173,7 +173,7 @@ proxies:
     - name: S_7
       type: hysteria2
       server: 108.181.5.130
-      port: 65232
+      port: 57773
       # ports: 10000-20000
       password: dongtaiwang.com
       sni: apple.com
@@ -184,7 +184,7 @@ proxies:
     - name: S_8
       type: hysteria2
       server: 51.159.226.1
-      port: 43496
+      port: 44464
       # ports: 10000-20000
       password: dongtaiwang.com
       sni: www.bing.com
@@ -226,8 +226,8 @@ proxies:
       
     - name: S_11
       type: hysteria
-      server: 208.87.243.187
-      port: 40528
+      server: 123.30.149.21
+      port: 29597
       # ports: 10000-20000
       auth-str: dongtaiwang.com
       alpn:
